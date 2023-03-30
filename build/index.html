@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="sm:grid sm:h-screen sm:place-items-center">
+    <main class="font-sans">
+      <div class="max-w-2xl shadow-xl sm:rounded-3xl">
+        <div class="grid sm:grid-cols-2 sm:gap-1">
+          <!-- Left -->
+          <div
+            class="grid grid-rows-3 place-items-center gap-3 rounded-b-3xl bg-gradient-to-t from-one-blue to-two-blue text-center sm:rounded-3xl"
+          >
+            <h1 class="mt-2 text-3xl font-bold text-main-text-gray">
+              Your results
+            </h1>
+            <p
+              class="mx-auto grid aspect-square w-44 place-content-center place-items-center rounded-full bg-gradient-to-t from-one-blue to-two-blue text-main-text-gray"
+            >
+              <span class="text-6xl font-bold text-main-text-gray-light"
+                >76</span
+              >
+              of 100
+            </p>
+            <div class="grid justify-items-center p-11">
+              <p class="text-3xl font-bold text-main-text-gray-light">Great</p>
+              <p class="justify-self-center text-lg text-gray-200">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
+          </div>
+          <!-- Right -->
+          <div class="mx-5 grid grid-rows-3 gap-3">
+            <h2 class="mt-2 text-3xl font-bold text-text-dark">Summary</h2>
+            <div class="grid">
+              <div
+                class="flex items-center justify-between rounded-lg bg-reaction-red/[.10] p-4"
+              >
+                <div class="flex gap-3">
+                  <svg
+                    class="stroke-reaction-red"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.25"
+                      d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"
+                    />
+                  </svg>
+                  <p
+                    class="text-xl font-semibold leading-none text-reaction-red"
+                  >
+                    Reaction
+                  </p>
+                </div>
+                <p class="text-xl text-text-dark">
+                  <span class="font-bold">80 </span>/ 100
+                </p>
+              </div>
+              <div>
+                <div>
+                  <img src="./assets//images/icon-memory.svg" alt="reaction" />
+                  <p>Memory</p>
+                </div>
+                <p><span>92</span>/100</p>
+              </div>
+            </div>
+            <button class="bg-gradient-to-t from-one-blue to-two-blue">
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
